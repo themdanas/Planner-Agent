@@ -1,1 +1,34 @@
-/.env     
+# Environment files
+.env
+.env.*
+
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution/build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.env/
+ENV/
+env/
+pyenv/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
+
+# Python test artifacts
+.pytest_cache/
+     
